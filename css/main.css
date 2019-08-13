@@ -4,7 +4,9 @@ body {
     color: #000;
     font-family: Soleil,Helvetica,Arial,sans-serif;
 }
-
+img {
+    max-width:100%;
+}
 .container {
     
     border-bottom: 1px solid rgb(237, 237, 237);
@@ -78,7 +80,7 @@ a {text-decoration: none;}
 .feature-background .container {
     align-items: center;
     display: flex;
-
+    padding: 120px 0;
 }
 .feature-background .content,
 .feature-background .image {
@@ -114,10 +116,10 @@ a.button-hero {
 }
 
 .feature-background.content {
-
     height: auto;
     max-width: 100%;
     width: auto;
+    text-align: center;
 
 
 }
